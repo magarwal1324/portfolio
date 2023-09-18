@@ -295,7 +295,50 @@ margin-bottom: 10px;
 
 /* Project */
 
+.project-section {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line on smaller screens */
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    
+}
 
+/* Style the project cards */
+.project-card {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    margin: 10px; /* Add some margin between cards */
+    margin-bottom: 30px;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.project-card h3 {
+    margin-top: 10px;
+    font-size: 3.5rem;
+}
+
+.project-card p {
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+/* Media query for screens smaller than 768px (e.g., smartphones) */
+@media (max-width: 768px) {
+    .project-card {
+        max-width: 100%; /* Cards take full width on small screens */
+    }
+}
 
 /* contact */
 
