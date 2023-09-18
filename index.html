@@ -1,139 +1,165 @@
 <!DOCTYPE html>
-<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <!-- Boxicons CDN Link -->
-    <link
-      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-      rel="stylesheet"
-    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="sidebar">
-      <div class="logo-details">
-        <!-- <img src="profile.png" alt="Profile Image" class="profile-image"> -->
-
-        <i class="bx bx-menu" id="btn"></i>
+    <!-- header section -->
+    <header>
+      <div class="user">
+        <img src="profile.png" alt="" />
+        <h3 class="name">Megha Agarwal</h3>
+        <p class="post">Software Development</p>
       </div>
-      <ul class="nav-list">
-        <li>
-          <a href="about.html" target="_blank">
-            <i class="bx bx-user"></i>
-            <span class="links_name">About</span>
-          </a>
-          <span class="tooltip">About</span>
-        </li>
-        <li>
-          <a href="#">
-            <i class="bx bx-book-reader"></i>
-            <span class="links_name">Education</span>
-          </a>
-          <span class="tooltip">Education</span>
-        </li>
-        <li>
-          <a href="#">
-            <i class="bx bx-chat"></i>
-            <span class="links_name">Skills</span>
-          </a>
-          <span class="tooltip">Skills</span>
-        </li>
-        <li>
-          <a href="#">
-            <i class="bx bx-library"></i>
-            <span class="links_name">Projects</span>
-          </a>
-          <span class="tooltip">Projects</span>
-        </li>
-        <li>
-          <a href="#">
-            <i class="bx bx-trending-up"></i>
-            <span class="links_name">Experience</span>
-          </a>
-          <span class="tooltip">Experience</span>
-        </li>
-        <li>
-          <a href="#">
-            <i class="bx bxs-contact"></i>
-            <span class="links_name">Contact</span>
-          </a>
-          <span class="tooltip">Contact</span>
-        </li>
-        <li>
-          <a href="#">
-            <i class="bx bx-folder"></i>
-            <span class="links_name">Resume</span>
-          </a>
-          <span class="tooltip">Resume</span>
-        </li>
-      </ul>
-    </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home"><i class="fas fa-home"></i>Home</a></li>
+          <li><a href="#about"><i class="fas fa-user"></i>About</a></li>
+          <li><a href="#education"><i class="fas fa-graduation-cap"></i>Education</a></li>
+          <li><a href="#project"><i class="fas fa-laptop-code"></i>Project</a></li>
+          <li><a href="#experience"><i class="fas fa-briefcase"></i>
+            Experience</a></li>
+          <li><a href="#contact"><i class="fas fa-envelope"></i>
+            Contact</a></li>
+          <li><a href="https://drive.google.com/file/d/1wKYtKDjdtGVcGOXKULu60OdA9C0hPOFq/view?usp=sharing" target="_blank"><i class="fas fa-file-alt"></i>
+            Resume</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <section class="home-section">
-      <div class="content">
-        <div class="text-content">
-          <div class="image-container">
-            <img src="profile.png" alt="Your Image" />
-          </div>
-          <div class="text">Hello, It's Me</div>
-          <div class="name">Megha Agarwal</div>
-          <div class="job">
-            <div class="job">
-              <div class="typing-text">
-                <span class="one">Developer</span>
-                <span class="two">,Fast Learner</span>
-              </div>
-            </div>
-          </div>
-          <p class="intro">
-            Self-driven, quick starter, passionate programmer with a curious
-            mind<br />
-            who enjoys solving a complex and challenging real-world problems.
-          </p>
-          <div class="buttons">
-            <button>Read More</button>
-            <button>Contact Me</button>
-          </div>
-        </div>
-        <div class="girl">
-          <img src="images/girl.png" alt="" />
-        </div>
-        
-      </div>
-      
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- Home section -->
+    <section class="home" id="home">
+      <h3>HI THERE !</h3>
+      <h1>I'M <span>Megha Agarwal</span></h1>
+      <p>Self-driven, quick starter, passionate programmer with a curious mind<br>
+who enjoys solving a complex and challenging real-world problems.</p>
+<div class="logo-container">
+<a href="#about"><button class="btn">Read More <i class="fas fa-user"></i>
+</button></a>
+<a href="#contact"><button class="btn">Contact Me <i class="fas fa-envelope"></i></button></a>
+</div>
+<div class="logo-container">
+<a href="#https://github.com/magarwal1324" class="logo" target="_blank"><i class="fab fa-github"></i></a>
+<a href="https://www.linkedin.com/in/megha-agarwal-40b7381b6/"  class="logo" target="_blank"><i class="fab fa-linkedin"></i></a>
+</div>
     </section>
+
+<!-- about section -->
+
+<section class="about" id="about">
+    <div class="heading">
+        <h1>About Me</h1>
+    </div>
+    <div class="bio">
+        <h2>I am a Computer Science Student at Asansol Engineering College (2020-2024).</h2>
+        <p>I enjoy problem-solving and coding. Always strive to bring 100% to the work I do. I have worked on technologies like Java, SQL, HTML5, CSS, Cloud Cumputing(Azure) during my bachelor's. I am passionate about developing complex applications that solve real-world problems impacting millions of users.</p>
+        <h3>Languages:</h3>
+        <p>Java, Data Structure, C, HTML/CSS, Azure Clud, Power BI</p>
+        <h3>Databases:</h3>
+        <p>MySQL, SQL</p>
+        <h3>Tools & Technologies:</h3>
+        <p>Git, Github, Docker, Oracle, Microsoft Teams Tools</p>
+        <h3>Core Subject:</h3>
+        <p>OOPS, DBMS, Networks</p>
+        <p>Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, which provides professional development, interesting experiences and personal growth.</p>
+    </div>
+</section>
+
+<!-- education section -->
+
+<section class="education" id="education">
+    <div class="heading">
+        <h1>Education</h1>
+    </div>
+    <div class="education-item">
+        <h2>Bachelor Of Technology</h2>
+        <p>Asansol Engineering College</p>
+        <p>Duration: 4 Year (2020-2024) </p>
+        <p>AVG CGPA: 9.20</p>
+    </div>
     
-    <script>
-      let sidebar = document.querySelector(".sidebar");
-      let closeBtn = document.querySelector("#btn");
-      let searchBtn = document.querySelector(".bx-search");
+    <div class="education-item">
+        <h2>Higher Secondary</h2>
+        <p>Burnpur Girls High School</p>
+        <p>duration: 2 Year (2027-2019)</p>
+        <p>AVG Score: 65%</p>
+    </div>
+</section>
 
-      closeBtn.addEventListener("click", () => {
-        sidebar.classList.toggle("open");
-        menuBtnChange(); //calling the function(optional)
-      });
 
-      searchBtn.addEventListener("click", () => {
-        // Sidebar open when you click on the search iocn
-        sidebar.classList.toggle("open");
-        menuBtnChange(); //calling the function(optional)
-      });
+<!-- Experience -->
 
-      // following are the code to change sidebar button(optional)
-      function menuBtnChange() {
-        if (sidebar.classList.contains("open")) {
-          closeBtn.classList.replace("bx-menu", "bx-menu-alt-right"); //replacing the iocns class
-        } else {
-          closeBtn.classList.replace("bx-menu-alt-right", "bx-menu"); //replacing the iocns class
-        }
-      }
-    </script>
+<section class="ex" id="experience">
+    <div class="heading">
+        <h1>Experience</h1>
+    </div>
+    <div class="ex-item">
+        <h2>Web Developer at "RC Diamond"</h2>
+        <p>June-Sept, 2021</p>
+        <p>Skills Gained: HTML, CSS, WordPress</p>
+    </div>
+    <div class="ex-item hackathon">
+        <h2>Hackathons</h2>
+        <ul>
+            <li>Hyland</li>
+            <li>Flipkart</li>
+        </ul>
+    </div>
+    <div class="ex-item finishing-school">
+        <h2>Finishing School Program on Advance Java</h2>
+        <p>Skills Gained: JSP, Servlet, HTML, CSS, BootStrap</p>
+    </div>
+    <div class="ex-item azure">
+        <h2>Microsoft Certified: Azure Fundamentals (AZ-900)</h2>
+        <p>Skills Gained: Azure Basic, Storage, Database, Container</p>
+    </div>
+</section>
+
+
+<!-- Projects -->
+
+
+
+
+
+<!-- contact -->
+<section class="contacts" id="contact">
+    <div class="heading">
+        <h1>Contact</h1>
+    </div>
+    <div class="contact">
+       
+        <div class="contact-info">
+            <p><i class="fas fa-phone"></i> +91-9064084874</p>
+            <p><i class="fas fa-envelope"></i>meghaagarwal1324@gmail.com</p>
+            <p><i class="fab fa-github"></i> <a href="https://github.com/magarwal1324" target="_blank">Github</a></p>
+            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/megha-agarwal-40b7381b6/" target="_blank">Linkedin</a></p>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
